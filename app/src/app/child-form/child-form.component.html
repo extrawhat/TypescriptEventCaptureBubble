@@ -1,4 +1,11 @@
 <form (submit)="this.submit()">
     <input type="submit" (click)="this.submitChild('submit1');" value="{{submit1}}"/>
-    <input type="button" (click)="this.submitChild('submit2');" value="{{submit2}}"/>
+    <div>
+        <input type="submit" (click)="this.submitChild('submit2');" value="{{submit2}}"/>
+        <ul>
+            <li>
+                <input type="submit" (click)="this.submitChild('submit3');" value="{{submit3}}"/>
+            </li>
+        </ul>
+    </div>
 </form>

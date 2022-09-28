@@ -9,6 +9,7 @@ export class ChildFormComponent implements OnInit {
 
   submit1 = "submit1";
   submit2 = "submit2";
+  submit3 = "submit3";
   constructor() { }
 
   ngOnInit(): void {
