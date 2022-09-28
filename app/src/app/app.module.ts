@@ -9,7 +9,7 @@ import { ChildFormComponent } from './child-form/child-form.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ChildFormComponent,
+    ChildFormComponent
   ],
   imports: [
     BrowserModule,
