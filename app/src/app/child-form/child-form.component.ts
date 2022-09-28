@@ -7,9 +7,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChildFormComponent implements OnInit {
 
+  submit1 = "submit1";
+  submit2 = "submit2";
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  submit() {
+    console.log("submitParnet Run ： formMain");
+    // return false;
+  }
+
+  submitParent() {
+    console.log("submitParnet Run ： formMain");
+    // return false;
+  }
+
+  submitChild(submitString: string) {
+    console.log("submitChild Run ：" + submitString);
+    this.submitParent();
+    // return false;
+  }
+
 
 }

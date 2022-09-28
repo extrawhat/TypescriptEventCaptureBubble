@@ -1,1 +1,4 @@
-<p>child-form works!</p>
+<form (submit)="this.submit()">
+    <input type="submit" (click)="this.submitChild('submit1');" value="{{submit1}}"/>
+    <input type="button" (click)="this.submitChild('submit2');" value="{{submit2}}"/>
+</form>
