@@ -1,4 +1,4 @@
-<form (ngSubmit)="this.submit()" (click)="this.submit()">
+<form (ngSubmit)="this.submit()" (click)="this.submitParent()">
     <input type="button" (ngSubmit)="this.submitChild(submit1);" (click)="this.submitChild(submit1);" value="{{submit1}}"/>
     <div>
         <input type="submit" (ngSubmit)="this.submitChild(submit2);" (click)="this.submitChild(submit2);" value="{{submit2}}"/>

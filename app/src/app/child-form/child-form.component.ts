@@ -16,7 +16,7 @@ export class ChildFormComponent implements OnInit {
   }
 
   submit() {
-    console.log("submitParnet Run ： formMain");
+    console.log("submit Run ： formMain");
     // return false;
   }
 
